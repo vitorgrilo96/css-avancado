@@ -1,0 +1,31 @@
+$cores: (
+    color-1: green,
+    color-2: yellow,
+    color-3: brown,
+    color-4: purple,
+    color-5: green,
+);
+
+body{
+    background-color: black;
+    color: white;
+}
+
+$i: 1;
+@each $nome, $cor in $cores{
+    .#{$nome}{
+        width: calc(100% / 5 * $i);
+        background-color: $cor;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    $i: $i + 1;
+}
+
+//@for $i from 1 through 5{
+//    .color-#{$i}{
+//        width: calc(100% / 5 * $i);
+//        background-color: yellow;
+//        margin-bottom: 10px;
+//    }
+//}
