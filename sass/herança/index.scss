@@ -1,0 +1,31 @@
+$cor-sucesso: blue;
+$cor-erro: yellow;
+$cor-aviso: red;
+
+%mensagem-base{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    color: white;
+    width: 500px
+}
+
+.mensagem{
+    &.sucesso{
+        @extend %mensagem-base;
+        background-color: $cor-sucesso;
+        border-color: darken($cor-sucesso, 20%);
+    }
+    &.erro{
+        @extend %mensagem-base;
+        background-color: $cor-erro;
+        border-color: darken($cor-erro, 20%);
+    }
+    &.aviso{
+        @extend %mensagem-base;
+        background-color: $cor-aviso;
+        border-color: darken($cor-aviso, 20%);
+    }
+}
