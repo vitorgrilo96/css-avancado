@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action="enviar" method="post">
+    <h1>formulário de país favorito</h1>
+    <div>
+        <label class="label" for="name">nome</label>
+        <input type="text" id="name" required>
+    </div>
+    
+    <div>
+        <label class="label" for="pais">digite seu país favorito (eliminatório)</label>
+        <input type="text" id="pais" required>
+    </div>
+
+    <div>
+        <label class="label" for="capital">qual a capital desse país ?</label>
+        <input type="text" id="capital">
+    </div>
+
+    <div>
+        <label class="label" for="porque">porque você gosta deste país em particular ?</label>
+        <textarea name="porque" id="porque"></textarea>
+    </div>
+    
+    <button type="submit">enviar</button>
+    <link rel="stylesheet" href="enviado.html">
+    </form>
+</body>
+</html>
