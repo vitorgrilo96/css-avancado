@@ -1,0 +1,58 @@
+main{
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    width: 100%;
+    transition: clip-path 1s ease-in-out;
+}
+
+img.polygon{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+img.polygon:hover{
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 100%);
+}
+
+img.circle{
+    /*
+    1% raio
+    1° 50% posição horizontal do centro do circulo
+    1° 50% posição vertical do centro do circulo
+    */
+    clip-path: circle(1% at 50% 50%);
+}
+
+img.circle:hover{
+    clip-path: circle(50% at 50% 50%);
+}
+
+img.ellipse{
+    /*
+    ellipse(
+        raio horizontal,
+        raio vertical,
+        posição horizontal do centro,
+        posição vertical do centro
+    )
+    */
+    clip-path: ellipse(10% 10% at 50% 50%);
+}
+
+img.ellipse:hover{
+    clip-path: ellipse(50% 50% at 50% 50%);
+}
+
+img.inset{
+    clip-path: inset(0);
+}
+
+img.inset:hover{
+    clip-path: inset(20%);
+}

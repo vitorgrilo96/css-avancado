@@ -1,0 +1,45 @@
+.btn.small {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.btn.medium {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.btn.large {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.btn.primary {
+  background-color: blue;
+}
+.btn.primary:hover {
+  background-color: #000066;
+}
+.btn.secondary {
+  background-color: yellow;
+}
+.btn.secondary:hover {
+  background-color: #666600;
+}
+.btn.danger {
+  background-color: red;
+}
+.btn.danger:hover {
+  background-color: #660000;
+}/*# sourceMappingURL=index.css.map */
