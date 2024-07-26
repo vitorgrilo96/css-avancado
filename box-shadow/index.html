@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>exemplos de sombreamento com box-shadow</h1>
+    <p>a propriedade<code>box-shadow</code> é usada para adicionar aos elementos. permite criar efeitos de profundidade e dar um aspecto mais realista aos elementos da página. a sintaxe é a seguinte:</p>
+    <code>box shadow: h-offset v-offset blur spread color</code>
+
+    <p>o que seria cada parte?</p>
+    <ul>
+        <li><strong>h-offset</strong>: deslocamento horizontal da sombra. valores positivos deslocam a sombra para direita e valores negativos para esquerda</li>
+
+        <li><strong>v-offset</strong>: deslocamento vertical da sombra. valores positivos deslocam a sombra para baixo e valores negativos para cima</li>
+
+        <li><strong>blur</strong>: grau de desfoque da sombra. quanto maior o valor, mais desfocada será a sombra. 0 cria uma sombra nitida</li>
+
+        <li><strong>spread</strong>: define o quanto a sombra se expande ou contraí. valores positivos expandem a sobra e valores negativos contraem.</li>
+
+        <li><strong>color</strong>: define a cor da sombra</li>
+    </ul>
+
+    <p><code>box-shadow</code>aceita multiplas sombras separadas por virgula.</p>
+
+    <h2>sombras símples</h2>
+    <div class="box shadow-simples">
+        <p>sombra para a direita e para baixo, sem desfoque.</p>
+    </div>
+
+    <div class="box shadow-blur">
+        <p>sombra para a direita, para baixo, com desfoque de 10px.</p>
+    </div>
+
+    <h2>sombra com cor</h2>
+    <div class="box shadow-cor-preto">
+        <p>sombra preta com desfoque</p>
+    </div>
+
+    <div class="box shadow-cor-azul">
+        <p>sombra azul com desfoque</p>
+    </div>
+
+    <h2>sombra multiplas</h2>
+    <div class="box shadow-multiplas">
+        <p>2 sombras diferentes</p>
+    </div>
+</body>
+</html>

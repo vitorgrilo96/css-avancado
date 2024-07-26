@@ -1,0 +1,29 @@
+.box{
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.shadow-simples{
+    box-shadow: 5px 5px;
+}
+
+.shadow-blur{
+    box-shadow: 5px 5px 10px;
+}
+
+.shadow-cor-preto{
+    box-shadow: 5px 5px 10px black;
+}
+
+.shadow-cor-azul{
+    box-shadow: 5px 5px 10px blue;
+}
+
+.shadow-multiplas{
+    box-shadow: 5px 5px 10px black, -5px -5px 10px red;
+}
