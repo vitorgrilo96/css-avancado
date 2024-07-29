@@ -62,7 +62,7 @@ main{
 }
 
 /* desktop com tela 4k e maior */
-@media (min-width: 2559px)
+@media (min-width: 2559px) {
     body{
         background-color: blue;
     }
@@ -70,3 +70,4 @@ main{
     main{
         font-size: 20px;
     }
+}
